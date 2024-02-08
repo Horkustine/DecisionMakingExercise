@@ -8,7 +8,9 @@ else if(randomNum>=2){
 else{
     console.log("Equal to 1");
 }
-
+if(randomNum!=3){
+    console.log("NOT equal to 3");
+}
 if(randomNum!=3 && randomNum!=5){
     console.log("NOT equal to 3 or 5");
 }
